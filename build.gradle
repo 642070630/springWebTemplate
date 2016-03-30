@@ -13,9 +13,9 @@ sourceCompatibility = 1.8
 repositories {
     mavenLocal()
     mavenCentral()
-    maven{
+    /*maven{
         url "http://192.168.10.29:8081/nexus/content/groups/public/"
-    }
+    }*/
 }
 
 dependencies {
@@ -66,12 +66,16 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
 
+def jettyHttpPort = 8090
+def jettyContextPath = "/"
+
 jettyRun{
-    contextPath = "/"
-    httpPort = 8090
+    contextPath = jettyContextPath
+    httpPort = jettyHttpPort
 }
 
 jettyRunWar{
-    contextPath = "/"
-    httpPort = 8090
+    contextPath = jettyContextPath
+    httpPort = jettyHttpPort
 }
+

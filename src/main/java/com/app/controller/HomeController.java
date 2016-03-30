@@ -38,7 +38,7 @@ public class HomeController {
         return "index";
     }
 
-    @RequestMapping(value = {"" ,"test"}, method = RequestMethod.GET)
+    @RequestMapping(value = {"test"}, method = RequestMethod.GET)
     public ModelAndView test(@ModelAttribute("model") ModelMap model,HttpServletRequest requestHandle) {
         logger.debug("index() is executed!");
         ModelAndView modelAndView = new ModelAndView();

@@ -1,5 +1,6 @@
 package com.app.service;
 
+import com.app.entity.User;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -29,5 +30,18 @@ public class UserService {
         userList.add(u1);
         userList.add(u2);
         return userList;
+    }
+
+    public User getSystemUser(){
+        User aUser = new User();
+
+        aUser.setName("LiuWill");
+        aUser.setAge(30);
+        aUser.setJob("Full-Stack Engineering");
+        aUser.setMobile("18608776684");
+        aUser.setEmail("liuwei_will@qq.com");
+        aUser.setWebSite("www.liuwill.com");
+        aUser.setGithub("https://github.com/liuwill");
+        return aUser;
     }
 }
