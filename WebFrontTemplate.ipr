@@ -208,6 +208,15 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.6/145dec81a48434610eea4fbd6df54d6a763c9fec/fastjson-1.2.6-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: com.beust:jcommander:1.48">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.48/bfcb96281ea3b59d626704f74bc6d625ff51cbce/jcommander-1.48.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.48/6deefcf90f144dfca29d4950c665a592ba029d42/jcommander-1.48-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.6.3">
       <CLASSES>
         <root url="jar://D:/AppCache/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.3/435efa54afd2853995546802280e8cd2d2770d00/jackson-annotations-2.6.3.jar!/" />
@@ -324,6 +333,13 @@
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-pool2/2.3/9e03327e766c3d16ed34a617818ab082192e83a7/commons-pool2-2.3-sources.jar!/" />
       </SOURCES>
+    </library>
+    <library name="Gradle: org.beanshell:bsh:2.0b4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.beanshell/bsh/2.0b4/a05f0a0feefa8d8467ac80e16e7de071489f0d9c/bsh-2.0b4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
     </library>
     <library name="Gradle: org.freemarker:freemarker:2.3.23">
       <CLASSES>
@@ -496,6 +512,15 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.8.RELEASE/c314cb930762cfb54ecd7214225cc38fbae1ae97/spring-webmvc-4.1.8.RELEASE-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: org.testng:testng:6.9.8">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.8/4fdce5969b698fdb5e565a561b5d2c52eef62611/testng-6.9.8.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.8/a82bd512ac4cf0c4cc8fa2010425c3c1464267f3/testng-6.9.8-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: taglibs:standard:1.1.2">
       <CLASSES>
         <root url="jar://D:/AppCache/.gradle/caches/modules-2/files-2.1/taglibs/standard/1.1.2/a17e8a4d9a1f7fcc5eed606721c9ed6b7f18acf7/standard-1.1.2.jar!/" />
@@ -505,46 +530,5 @@
         <root url="jar://D:/AppCache/.gradle/caches/modules-2/files-2.1/taglibs/standard/1.1.2/df8e0d90d896837d12eebaf7abf7bcf07ad0f4e4/standard-1.1.2-sources.jar!/" />
       </SOURCES>
     </library>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <UIState>
-          <splitter-proportions>
-            <SplitterProportionsDataImpl />
-          </splitter-proportions>
-          <settings />
-        </UIState>
-      </state>
-      <state key="Copyright.UI">
-        <UIState>
-          <splitter-proportions>
-            <SplitterProportionsDataImpl />
-          </splitter-proportions>
-        </UIState>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <UIState>
-          <splitter-proportions>
-            <SplitterProportionsDataImpl>
-              <option name="proportions">
-                <list>
-                  <option value="0.2" />
-                </list>
-              </option>
-            </SplitterProportionsDataImpl>
-          </splitter-proportions>
-          <last-edited>1.6</last-edited>
-        </UIState>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <UIState>
-          <splitter-proportions>
-            <SplitterProportionsDataImpl />
-          </splitter-proportions>
-          <settings />
-        </UIState>
-      </state>
-    </states>
   </component>
 </project>

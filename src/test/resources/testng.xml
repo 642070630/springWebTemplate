@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+    <test name="TestMVC" enabled="true">
+        <groups>
+            <run>
+                <include name="home" />
+                <include name="mvc" />
+                <include name="freemarker" />
+                <include name="rest" />
+                <include name="template" />
+                <exclude name="transaction" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.liuwill.test.TemplateTest"/>
+        </classes>
+    </test>
+</suite>
