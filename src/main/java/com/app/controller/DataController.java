@@ -32,4 +32,15 @@ public class DataController {
         resultMap.put("data",userService.getSystemUser());
         return resultMap;
     }
+
+    @RequestMapping(value = "success")//, method = RequestMethod.GET
+    public Map success() {
+        logger.debug("DataController.success[/data/success]");
+
+        HashMap resultMap = new HashMap();
+        resultMap.put("status",true);
+        resultMap.put("code","success");
+        resultMap.put("content","数据获取成功");
+        return resultMap;
+    }
 }

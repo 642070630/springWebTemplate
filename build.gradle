@@ -74,6 +74,8 @@ dependencies {
 
     testCompile group: 'junit', name: 'junit', version: '4.11'
     testCompile group: 'org.testng', name: 'testng', version: '6.9.8'
+    testCompile	'org.springframework:spring-test:4.1.8.RELEASE'
+    testCompile 'com.jayway.jsonpath:json-path:2.2.0'
 }
 
 def jettyHttpPort = 8090

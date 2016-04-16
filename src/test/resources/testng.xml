@@ -7,13 +7,16 @@
                 <include name="mvc" />
                 <include name="freemarker" />
                 <include name="rest" />
+                <include name="data" />
                 <include name="template" />
+                <include name="context" />
                 <exclude name="transaction" />
             </run>
         </groups>
 
         <classes>
             <class name="com.liuwill.test.TemplateTest"/>
+            <class name="com.liuwill.test.DataControllerTest"/>
         </classes>
     </test>
 </suite>
