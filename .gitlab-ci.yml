@@ -24,3 +24,5 @@ staging:
     - dpl --provider=heroku --app=murmuring-dawn-66891 --api-key=$HEROKU_API_KEY
   only:
     - deploy
+  tags:
+    - docker
