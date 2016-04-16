@@ -1,0 +1,8 @@
+before_script:
+  - apt-get update -y
+  - apt-get install default-jdk gradle -y
+
+test:
+  script:
+    - chmod +x gradlew
+    - ./gradlew stage

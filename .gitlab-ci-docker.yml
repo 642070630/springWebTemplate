@@ -1,0 +1,15 @@
+image: java:openjdk-8
+
+stages:
+  - test
+
+before_script:
+  - apt-get update -y
+  - apt-get install gradle -y
+
+test_async:
+  stage: test
+  script:
+   - gradle stage
+  tags:
+    - docker
